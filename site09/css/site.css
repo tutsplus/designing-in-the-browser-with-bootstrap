@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
+/*
+    blue: #334D5C;
+    teal: #45B29D;
+    light teal: #4EC9B2;
+    yellow: #EFC94C;
+    orange: #E27A3F;
+    red: #DF4949;
+*/
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lora', Georgia, serif;
+}
+body {
+    color: #444;
+    padding-top: 65px;
+}
+.jumbotron h1 {
+    font-size: 60px;
+}
+.btn-success {
+    background-color: #45B29D;
+    border: none;
+}
+.btn-success:hover {
+    background-color: #4EC9B2;
+    border: none;
+}
+.navbar-custom {
+    background-color: #334D5C;
+    color: white;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ddd;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #334D5C;
+}
